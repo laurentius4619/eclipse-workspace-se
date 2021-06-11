@@ -1,0 +1,26 @@
+package com.itwill01.method;
+
+public class CalculatorMain {
+
+	public static void main(String[] args) {
+		Calculator calculator=new Calculator();
+		/*
+		int result=calculator.add(23,34);
+		System.out.println(result);
+		result=calculator.sub(23,34);
+		System.out.println(result);
+		result=calculator.mul(23,34);
+		System.out.println(result);
+		result=calculator.div(45435,34);
+		System.out.println(result);
+		*/
+		int result=calculator.add(1, 2);
+		System.out.println(result);
+		
+		System.out.println(calculator.add(1,2));
+		System.out.println(calculator.sub(1, 2));
+		System.out.println(calculator.div(1, 2));
+		System.out.println(calculator.mul(1, 2));
+	}
+
+}
